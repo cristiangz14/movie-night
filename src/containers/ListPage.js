@@ -5,6 +5,7 @@ import Loading from '../components/Loading'
 import SearchBar from '../components/SearchBar'
 import MovieSection from '../components/MovieSection'
 import Header from '../components/Header'
+import filterByRating from '../utils/filterByRating'
 
 const ListPage = () => {
   const [queryTerm, setQueryTerm] = useState()
@@ -41,30 +42,8 @@ const ListPage = () => {
     searchMovies(query)
   }, 300)
 
-  function filterByRating() {
-    if (!rating) {
-      return []
-    }
-
-    return movies.filter(({ vote_average }) => {
-      if (rating === 1) {
-        return vote_average >= 0 && vote_average <= 2
-      } else if (rating === 2) {
-        return vote_average >= 2 && vote_average <= 4
-      } else if (rating === 3) {
-        return vote_average >= 4 && vote_average <= 6
-      } else if (rating === 4) {
-        return vote_average >= 6 && vote_average <= 8
-      } else if (rating === 5) {
-        return vote_average >= 8 && vote_average <= 10
-      } else {
-        return false
-      }
-    })
-  }
-
   let popularMovie
-  let _movies = rating ? filterByRating() : [...movies]
+  let _movies = rating ? filterByRating(rating, movies) : [...movies]
 
   if (!viewAll) {
     popularMovie = _movies[0]
