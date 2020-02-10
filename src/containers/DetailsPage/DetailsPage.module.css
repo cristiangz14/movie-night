@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+}
+
+.details {
+  flex: 1;
+  padding: 16px 64px;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.released {
+  color: #c0c0c0;
+  font-size: 28px;
+}
+
+.overview {
+  text-align: left;
+  margin-bottom: 16px;
+}

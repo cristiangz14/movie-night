@@ -1,0 +1,8 @@
+.star {
+  cursor: pointer;
+  color: rgb(236, 201, 75);
+}
+
+.container {
+  display: inline-block;
+}

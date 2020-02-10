@@ -1,0 +1,36 @@
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0 8px 8px;
+  height: 100%;
+}
+
+.footer {
+  display: flex;
+  color: #fff;
+  background-color: black;
+  padding: 3px 8px;
+  font-weight: 500;
+}
+
+.title {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  align-self: center;
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.rating {
+  color: rgb(236, 201, 75);
+  margin-right: 4px;
+}
+
+.poster {
+  display: flex;
+  border: 1px solid black;
+}

@@ -1,0 +1,21 @@
+.icon {
+  margin-right: 8px;
+  color: #ed7e6c;
+}
+
+.title {
+  text-align: left;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.viewAll {
+  text-decoration: none;
+  color: inherit;
+}

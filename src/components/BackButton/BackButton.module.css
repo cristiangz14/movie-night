@@ -1,0 +1,18 @@
+.container {
+  text-align: right;
+}
+
+.button {
+  display: inline-flex;
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 6px 8px;
+}
+
+.icon {
+  font-size: 24;
+}
+
+.link {
+  color: inherit;
+}

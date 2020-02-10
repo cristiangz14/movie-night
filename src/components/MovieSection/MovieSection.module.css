@@ -1,0 +1,17 @@
+.section {
+  padding: 32px 115px;
+}
+
+.notMovies {
+  margin: 0;
+}
+
+.moviesContainer {
+  display: flex;
+}
+
+.movies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}

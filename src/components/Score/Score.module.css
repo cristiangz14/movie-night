@@ -1,0 +1,20 @@
+.star {
+  color: rgb(236, 201, 75);
+}
+
+.container {
+  display: inline-block;
+}
+
+.score {
+  font-size: 24px;
+}
+
+.scoreMax {
+  font-size: 16px;
+  color: rgb(192, 192, 192);
+}
+
+.votes {
+  text-align: right;
+}
