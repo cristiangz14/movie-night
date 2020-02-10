@@ -9,13 +9,13 @@ Before run this project a `.env` file must be created with the following variabl
 
 Create an account at [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction) and then create a new API key.
 
-### Install dependencies
+## Install dependencies
 
 ```
 ❯ yarn install
 ```
 
-### Run the project
+## Run the project
 
 ```
 ❯ yarn start
